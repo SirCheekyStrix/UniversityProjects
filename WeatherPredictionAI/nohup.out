@@ -1,0 +1,1484 @@
+[2026-04-24 13:25:33] INFO Uruchamiam API server na 0.0.0.0:8000
+INFO:     Started server process [57463]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-04-24 13:25:47] INFO PatchTST predict: lat=1.961979, lon=1.401298
+[2026-04-24 13:26:03] WARNING InfluxDB blad [forecast_weather_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Fri, 24 Apr 2026 11:26:03 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-04-24 13:26:03] INFO TFT predict: lat=1.961979, lon=1.401298
+INFO: 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-04-24 13:26:07] INFO 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+INFO: GPU available: False, used: False
+[2026-04-24 13:26:07] INFO GPU available: False, used: False
+INFO: TPU available: False, using: 0 TPU cores
+[2026-04-24 13:26:07] INFO TPU available: False, using: 0 TPU cores
+[2026-04-24 13:26:07] WARNING InfluxDB blad [forecast_weather_10d]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Fri, 24 Apr 2026 11:26:07 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-04-24 13:26:07] INFO Fish predict: lat=1.961979, lon=1.401298
+[2026-04-24 13:26:08] WARNING InfluxDB blad [forecast_fish_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Fri, 24 Apr 2026 11:26:08 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-04-24 13:26] Pobieranie danych...
+Ładowanie modelu TFT...
+Generowanie prognozy...
+JSON zapisany: /home/ec2-user/WeatherPredictionAI/tft_model_files/tft_forecast.json
+  ⚠ InfluxDB pominięty: No module named 'influx_writer'
+[2026-04-24 13:26] Pobieranie danych pogodowych...
+INFO:     127.0.0.1:55826 - "GET /predict?latitude=1.961979&longitude=1.401298&reservoir_id=24&models=patchtst,tft,fish HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-04-24 13:26:28] INFO PatchTST predict: lat=1.961979, lon=1.401298
+[2026-04-24 13:26:29] WARNING InfluxDB blad [forecast_weather_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Fri, 24 Apr 2026 11:26:29 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-04-24 13:26:29] INFO TFT predict: lat=1.961979, lon=1.401298
+INFO: 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-04-24 13:26:29] INFO 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+INFO: GPU available: False, used: False
+[2026-04-24 13:26:29] INFO GPU available: False, used: False
+INFO: TPU available: False, using: 0 TPU cores
+[2026-04-24 13:26:29] INFO TPU available: False, using: 0 TPU cores
+[2026-04-24 13:26:30] WARNING InfluxDB blad [forecast_weather_10d]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Fri, 24 Apr 2026 11:26:30 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-04-24 13:26:30] INFO Fish predict: lat=1.961979, lon=1.401298
+[2026-04-24 13:26:30] WARNING InfluxDB blad [forecast_fish_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Fri, 24 Apr 2026 11:26:30 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-04-24 13:26] Pobieranie danych...
+Ładowanie modelu TFT...
+Generowanie prognozy...
+JSON zapisany: /home/ec2-user/WeatherPredictionAI/tft_model_files/tft_forecast.json
+  ⚠ InfluxDB pominięty: No module named 'influx_writer'
+[2026-04-24 13:26] Pobieranie danych pogodowych...
+INFO:     127.0.0.1:55826 - "GET /predict?latitude=1.961979&longitude=1.401298&reservoir_id=24&models=patchtst,tft,fish HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-04-24 14:36:13] INFO PatchTST predict: lat=53.10487, lon=18.33097
+[2026-04-24 14:36:13] INFO Fish predict: lat=53.10487, lon=18.33097
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-04-24 14:36:13] INFO TFT predict: lat=53.10487, lon=18.33097
+[2026-04-24 14:36:14] WARNING InfluxDB blad [forecast_weather_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Fri, 24 Apr 2026 12:36:14 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-04-24 14:36] Pobieranie danych pogodowych...
+[2026-04-24 14:36] Pobieranie danych...
+Ładowanie modelu TFT...
+INFO:     172.19.0.3:39290 - "GET /predict?latitude=53.10487&longitude=18.33097&reservoir_id=2&models=patchtst HTTP/1.1" 200 OK
+INFO: 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-04-24 14:36:15] INFO 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+INFO: GPU available: False, used: False
+[2026-04-24 14:36:15] INFO GPU available: False, used: False
+INFO: TPU available: False, using: 0 TPU cores
+[2026-04-24 14:36:15] INFO TPU available: False, using: 0 TPU cores
+[2026-04-24 14:36:15] WARNING InfluxDB blad [forecast_weather_10d]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Fri, 24 Apr 2026 12:36:15 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+Generowanie prognozy...
+JSON zapisany: /home/ec2-user/WeatherPredictionAI/tft_model_files/tft_forecast.json
+  ⚠ InfluxDB pominięty: No module named 'influx_writer'
+INFO:     172.19.0.3:39312 - "GET /predict?latitude=53.10487&longitude=18.33097&reservoir_id=2&models=tft HTTP/1.1" 200 OK
+[2026-04-24 14:36:16] WARNING InfluxDB blad [forecast_fish_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Fri, 24 Apr 2026 12:36:16 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+INFO:     172.19.0.3:39296 - "GET /predict?latitude=53.10487&longitude=18.33097&reservoir_id=2&models=fish HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-04-24 14:48:27] INFO TFT predict: lat=53.13952174943674, lon=18.767678450679817
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-04-24 14:48:27] INFO Fish predict: lat=53.13952174943674, lon=18.767678450679817
+[2026-04-24 14:48:27] INFO PatchTST predict: lat=53.13952174943674, lon=18.767678450679817
+[2026-04-24 14:48:27] WARNING InfluxDB blad [forecast_weather_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Fri, 24 Apr 2026 12:48:27 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-04-24 14:48] Pobieranie danych...
+[2026-04-24 14:48] Pobieranie danych pogodowych...
+Ładowanie modelu TFT...
+INFO:     172.19.0.3:34524 - "GET /predict?latitude=53.13952174943674&longitude=18.767678450679817&reservoir_id=5&models=patchtst HTTP/1.1" 200 OK
+[2026-04-24 14:48:28] WARNING InfluxDB blad [forecast_fish_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Fri, 24 Apr 2026 12:48:28 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+INFO:     172.19.0.3:34498 - "GET /predict?latitude=53.13952174943674&longitude=18.767678450679817&reservoir_id=5&models=fish HTTP/1.1" 200 OK
+INFO: 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-04-24 14:48:29] INFO 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+INFO: GPU available: False, used: False
+[2026-04-24 14:48:29] INFO GPU available: False, used: False
+INFO: TPU available: False, using: 0 TPU cores
+[2026-04-24 14:48:29] INFO TPU available: False, using: 0 TPU cores
+[2026-04-24 14:48:29] WARNING InfluxDB blad [forecast_weather_10d]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Fri, 24 Apr 2026 12:48:29 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+Generowanie prognozy...
+JSON zapisany: /home/ec2-user/WeatherPredictionAI/tft_model_files/tft_forecast.json
+  ⚠ InfluxDB pominięty: No module named 'influx_writer'
+INFO:     172.19.0.3:34500 - "GET /predict?latitude=53.13952174943674&longitude=18.767678450679817&reservoir_id=5&models=tft HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-04-24 14:52:55] INFO Fish predict: lat=54.501, lon=18.499
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-04-24 14:52:55] INFO PatchTST predict: lat=54.501, lon=18.499
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-04-24 14:52:55] INFO TFT predict: lat=54.501, lon=18.499
+[2026-04-24 14:52:55] WARNING InfluxDB blad [forecast_weather_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Fri, 24 Apr 2026 12:52:55 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-04-24 14:52] Pobieranie danych pogodowych...
+[2026-04-24 14:52] Pobieranie danych...
+INFO:     172.19.0.3:47424 - "GET /predict?latitude=54.501&longitude=18.499&reservoir_id=4&models=patchtst HTTP/1.1" 200 OK
+[2026-04-24 14:52:56] WARNING InfluxDB blad [forecast_fish_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Fri, 24 Apr 2026 12:52:56 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+Ładowanie modelu TFT...
+INFO:     172.19.0.3:47418 - "GET /predict?latitude=54.501&longitude=18.499&reservoir_id=4&models=fish HTTP/1.1" 200 OK
+INFO: 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-04-24 14:52:56] INFO 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+INFO: GPU available: False, used: False
+[2026-04-24 14:52:56] INFO GPU available: False, used: False
+INFO: TPU available: False, using: 0 TPU cores
+[2026-04-24 14:52:56] INFO TPU available: False, using: 0 TPU cores
+[2026-04-24 14:52:57] WARNING InfluxDB blad [forecast_weather_10d]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Fri, 24 Apr 2026 12:52:57 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+Generowanie prognozy...
+JSON zapisany: /home/ec2-user/WeatherPredictionAI/tft_model_files/tft_forecast.json
+  ⚠ InfluxDB pominięty: No module named 'influx_writer'
+INFO:     172.19.0.3:47440 - "GET /predict?latitude=54.501&longitude=18.499&reservoir_id=4&models=tft HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-04-24 14:54:53] INFO TFT predict: lat=54.501, lon=18.499
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-04-24 14:54:53] INFO PatchTST predict: lat=54.501, lon=18.499
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-04-24 14:54:53] INFO Fish predict: lat=54.501, lon=18.499
+[2026-04-24 14:54:54] WARNING InfluxDB blad [forecast_weather_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Fri, 24 Apr 2026 12:54:54 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-04-24 14:54] Pobieranie danych...
+[2026-04-24 14:54] Pobieranie danych pogodowych...
+Ładowanie modelu TFT...
+INFO:     172.19.0.3:39250 - "GET /predict?latitude=54.501&longitude=18.499&reservoir_id=4&models=patchtst HTTP/1.1" 200 OK
+INFO: 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-04-24 14:54:54] INFO 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+INFO: GPU available: False, used: False
+[2026-04-24 14:54:54] INFO GPU available: False, used: False
+INFO: TPU available: False, using: 0 TPU cores
+[2026-04-24 14:54:54] INFO TPU available: False, using: 0 TPU cores
+[2026-04-24 14:54:55] WARNING InfluxDB blad [forecast_weather_10d]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Fri, 24 Apr 2026 12:54:55 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+Generowanie prognozy...
+JSON zapisany: /home/ec2-user/WeatherPredictionAI/tft_model_files/tft_forecast.json
+  ⚠ InfluxDB pominięty: No module named 'influx_writer'
+INFO:     172.19.0.3:39240 - "GET /predict?latitude=54.501&longitude=18.499&reservoir_id=4&models=tft HTTP/1.1" 200 OK
+[2026-04-24 14:54:55] WARNING InfluxDB blad [forecast_fish_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Fri, 24 Apr 2026 12:54:55 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+INFO:     172.19.0.3:39242 - "GET /predict?latitude=54.501&longitude=18.499&reservoir_id=4&models=fish HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-04-24 18:22:51] INFO Fish predict: lat=53.10487, lon=18.33097
+[2026-04-24 18:22:51] INFO PatchTST predict: lat=53.10487, lon=18.33097
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-04-24 18:22:51] INFO TFT predict: lat=53.10487, lon=18.33097
+[2026-04-24 18:22:51] WARNING InfluxDB blad [forecast_weather_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Fri, 24 Apr 2026 16:22:51 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-04-24 18:22] Pobieranie danych pogodowych...
+[2026-04-24 18:22] Pobieranie danych...
+Ładowanie modelu TFT...
+INFO:     172.19.0.3:54480 - "GET /predict?latitude=53.10487&longitude=18.33097&reservoir_id=2&models=patchtst HTTP/1.1" 200 OK
+INFO: 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-04-24 18:22:52] INFO 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+INFO: GPU available: False, used: False
+[2026-04-24 18:22:52] INFO GPU available: False, used: False
+INFO: TPU available: False, using: 0 TPU cores
+[2026-04-24 18:22:52] INFO TPU available: False, using: 0 TPU cores
+[2026-04-24 18:22:52] WARNING InfluxDB blad [forecast_weather_10d]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Fri, 24 Apr 2026 16:22:52 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+Generowanie prognozy...
+JSON zapisany: /home/ec2-user/WeatherPredictionAI/tft_model_files/tft_forecast.json
+  ⚠ InfluxDB pominięty: No module named 'influx_writer'
+INFO:     172.19.0.3:54504 - "GET /predict?latitude=53.10487&longitude=18.33097&reservoir_id=2&models=tft HTTP/1.1" 200 OK
+[2026-04-24 18:22:53] WARNING InfluxDB blad [forecast_fish_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Fri, 24 Apr 2026 16:22:53 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+INFO:     172.19.0.3:54496 - "GET /predict?latitude=53.10487&longitude=18.33097&reservoir_id=2&models=fish HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-04-25 10:12:22] INFO PatchTST predict: lat=53.13952174943674, lon=18.767678450679817
+[2026-04-25 10:12:22] INFO TFT predict: lat=53.13952174943674, lon=18.767678450679817
+[2026-04-25 10:12:22] INFO Fish predict: lat=53.13952174943674, lon=18.767678450679817
+[2026-04-25 10:12:23] WARNING InfluxDB blad [forecast_weather_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sat, 25 Apr 2026 08:12:23 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-04-25 10:12] Pobieranie danych...
+[2026-04-25 10:12] Pobieranie danych pogodowych...
+INFO:     172.19.0.3:46422 - "GET /predict?latitude=53.13952174943674&longitude=18.767678450679817&reservoir_id=5&models=patchtst HTTP/1.1" 200 OK
+[2026-04-25 10:12:24] WARNING InfluxDB blad [forecast_fish_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sat, 25 Apr 2026 08:12:24 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+Ładowanie modelu TFT...
+INFO:     172.19.0.3:46438 - "GET /predict?latitude=53.13952174943674&longitude=18.767678450679817&reservoir_id=5&models=fish HTTP/1.1" 200 OK
+INFO: 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-04-25 10:12:24] INFO 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+INFO: GPU available: False, used: False
+[2026-04-25 10:12:24] INFO GPU available: False, used: False
+INFO: TPU available: False, using: 0 TPU cores
+[2026-04-25 10:12:24] INFO TPU available: False, using: 0 TPU cores
+[2026-04-25 10:12:25] WARNING InfluxDB blad [forecast_weather_10d]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sat, 25 Apr 2026 08:12:25 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+Generowanie prognozy...
+JSON zapisany: /home/ec2-user/WeatherPredictionAI/tft_model_files/tft_forecast.json
+  ⚠ InfluxDB pominięty: No module named 'influx_writer'
+INFO:     172.19.0.3:46436 - "GET /predict?latitude=53.13952174943674&longitude=18.767678450679817&reservoir_id=5&models=tft HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-04-25 10:24:34] INFO PatchTST predict: lat=53.13952174943674, lon=18.767678450679817
+[2026-04-25 10:24:34] INFO TFT predict: lat=53.13952174943674, lon=18.767678450679817
+[2026-04-25 10:24:34] INFO Fish predict: lat=53.13952174943674, lon=18.767678450679817
+[2026-04-25 10:24:34] WARNING InfluxDB blad [forecast_weather_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sat, 25 Apr 2026 08:24:34 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-04-25 10:24] Pobieranie danych...
+[2026-04-25 10:24] Pobieranie danych pogodowych...
+INFO:     172.19.0.3:52474 - "GET /predict?latitude=53.13952174943674&longitude=18.767678450679817&reservoir_id=5&models=patchtst HTTP/1.1" 200 OK
+INFO: 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-04-25 10:24:40] INFO 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+INFO: GPU available: False, used: False
+[2026-04-25 10:24:41] INFO GPU available: False, used: False
+INFO: TPU available: False, using: 0 TPU cores
+[2026-04-25 10:24:41] INFO TPU available: False, using: 0 TPU cores
+[2026-04-25 10:24:41] WARNING InfluxDB blad [forecast_weather_10d]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sat, 25 Apr 2026 08:24:41 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+Ładowanie modelu TFT...
+Generowanie prognozy...
+JSON zapisany: /home/ec2-user/WeatherPredictionAI/tft_model_files/tft_forecast.json
+  ⚠ InfluxDB pominięty: No module named 'influx_writer'
+INFO:     172.19.0.3:52478 - "GET /predict?latitude=53.13952174943674&longitude=18.767678450679817&reservoir_id=5&models=tft HTTP/1.1" 200 OK
+[2026-04-25 10:24:41] WARNING InfluxDB blad [forecast_fish_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sat, 25 Apr 2026 08:24:41 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+INFO:     172.19.0.3:52484 - "GET /predict?latitude=53.13952174943674&longitude=18.767678450679817&reservoir_id=5&models=fish HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-04-25 10:36:14] INFO PatchTST predict: lat=53.13952174943674, lon=18.767678450679817
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-04-25 10:36:14] INFO TFT predict: lat=53.13952174943674, lon=18.767678450679817
+[2026-04-25 10:36:14] INFO Fish predict: lat=53.13952174943674, lon=18.767678450679817
+[2026-04-25 10:36:15] WARNING InfluxDB blad [forecast_weather_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sat, 25 Apr 2026 08:36:15 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-04-25 10:36] Pobieranie danych...
+[2026-04-25 10:36] Pobieranie danych pogodowych...
+INFO:     172.19.0.3:52980 - "GET /predict?latitude=53.13952174943674&longitude=18.767678450679817&reservoir_id=5&models=patchtst HTTP/1.1" 200 OK
+[2026-04-25 10:36:16] WARNING InfluxDB blad [forecast_fish_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sat, 25 Apr 2026 08:36:16 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+Ładowanie modelu TFT...
+INFO:     172.19.0.3:53010 - "GET /predict?latitude=53.13952174943674&longitude=18.767678450679817&reservoir_id=5&models=fish HTTP/1.1" 200 OK
+INFO: 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-04-25 10:36:16] INFO 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+INFO: GPU available: False, used: False
+[2026-04-25 10:36:16] INFO GPU available: False, used: False
+INFO: TPU available: False, using: 0 TPU cores
+[2026-04-25 10:36:16] INFO TPU available: False, using: 0 TPU cores
+[2026-04-25 10:36:16] WARNING InfluxDB blad [forecast_weather_10d]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sat, 25 Apr 2026 08:36:16 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+Generowanie prognozy...
+JSON zapisany: /home/ec2-user/WeatherPredictionAI/tft_model_files/tft_forecast.json
+  ⚠ InfluxDB pominięty: No module named 'influx_writer'
+INFO:     172.19.0.3:52994 - "GET /predict?latitude=53.13952174943674&longitude=18.767678450679817&reservoir_id=5&models=tft HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-04-25 10:38:55] INFO PatchTST predict: lat=53.13952174943674, lon=18.767678450679817
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-04-25 10:38:55] INFO Fish predict: lat=53.13952174943674, lon=18.767678450679817
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-04-25 10:38:55] INFO TFT predict: lat=53.13952174943674, lon=18.767678450679817
+[2026-04-25 10:38:55] WARNING InfluxDB blad [forecast_weather_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sat, 25 Apr 2026 08:38:55 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-04-25 10:38] Pobieranie danych pogodowych...
+[2026-04-25 10:38] Pobieranie danych...
+INFO:     172.19.0.3:50056 - "GET /predict?latitude=53.13952174943674&longitude=18.767678450679817&reservoir_id=5&models=patchtst HTTP/1.1" 200 OK
+INFO: 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-04-25 10:38:56] INFO 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+INFO: GPU available: False, used: False
+[2026-04-25 10:38:56] INFO GPU available: False, used: False
+INFO: TPU available: False, using: 0 TPU cores
+[2026-04-25 10:38:56] INFO TPU available: False, using: 0 TPU cores
+[2026-04-25 10:38:57] WARNING InfluxDB blad [forecast_weather_10d]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sat, 25 Apr 2026 08:38:57 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+Ładowanie modelu TFT...
+Generowanie prognozy...
+JSON zapisany: /home/ec2-user/WeatherPredictionAI/tft_model_files/tft_forecast.json
+  ⚠ InfluxDB pominięty: No module named 'influx_writer'
+INFO:     172.19.0.3:50086 - "GET /predict?latitude=53.13952174943674&longitude=18.767678450679817&reservoir_id=5&models=tft HTTP/1.1" 200 OK
+[2026-04-25 10:38:57] WARNING InfluxDB blad [forecast_fish_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sat, 25 Apr 2026 08:38:57 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+INFO:     172.19.0.3:50072 - "GET /predict?latitude=53.13952174943674&longitude=18.767678450679817&reservoir_id=5&models=fish HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-04-25 11:05:22] INFO PatchTST predict: lat=1.9619797, lon=0.0
+[2026-04-25 11:05:22] WARNING InfluxDB blad [forecast_weather_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sat, 25 Apr 2026 09:05:22 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-04-25 11:05:22] INFO TFT predict: lat=1.9619797, lon=0.0
+INFO: 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-04-25 11:05:23] INFO 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+INFO: GPU available: False, used: False
+[2026-04-25 11:05:23] INFO GPU available: False, used: False
+INFO: TPU available: False, using: 0 TPU cores
+[2026-04-25 11:05:23] INFO TPU available: False, using: 0 TPU cores
+[2026-04-25 11:05:23] WARNING InfluxDB blad [forecast_weather_10d]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sat, 25 Apr 2026 09:05:23 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-04-25 11:05:23] INFO Fish predict: lat=1.9619797, lon=0.0
+[2026-04-25 11:05:24] WARNING InfluxDB blad [forecast_fish_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sat, 25 Apr 2026 09:05:24 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-04-25 11:05] Pobieranie danych...
+Ładowanie modelu TFT...
+Generowanie prognozy...
+JSON zapisany: /home/ec2-user/WeatherPredictionAI/tft_model_files/tft_forecast.json
+  ⚠ InfluxDB pominięty: No module named 'influx_writer'
+[2026-04-25 11:05] Pobieranie danych pogodowych...
+INFO:     172.19.0.3:55354 - "GET /predict?latitude=1.9619797&longitude=0.0&reservoir_id=10&models=patchtst,tft,fish HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [57463]
+[2026-04-28 16:11:05] INFO Uruchamiam API server na 0.0.0.0:8000
+INFO:     Started server process [10669]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-04-28 16:11:09] INFO PatchTST predict: lat=53.10487, lon=18.33097
+[2026-04-28 16:11:24] WARNING InfluxDB blad [forecast_weather_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Tue, 28 Apr 2026 14:11:24 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-04-28 16:11:24] INFO TFT predict: lat=53.10487, lon=18.33097
+INFO: 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-04-28 16:11:27] INFO 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+INFO: GPU available: False, used: False
+[2026-04-28 16:11:28] INFO GPU available: False, used: False
+INFO: TPU available: False, using: 0 TPU cores
+[2026-04-28 16:11:28] INFO TPU available: False, using: 0 TPU cores
+[2026-04-28 16:11:28] WARNING InfluxDB blad [forecast_weather_10d]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Tue, 28 Apr 2026 14:11:28 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-04-28 16:11:28] INFO Fish predict: lat=53.10487, lon=18.33097
+[2026-04-28 16:11:29] WARNING InfluxDB blad [forecast_fish_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Tue, 28 Apr 2026 14:11:29 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-04-28 16:11] Pobieranie danych...
+Ładowanie modelu TFT...
+Generowanie prognozy...
+JSON zapisany: /home/ec2-user/WeatherPredictionAI/tft_model_files/tft_forecast.json
+  ⚠ InfluxDB pominięty: No module named 'influx_writer'
+[2026-04-28 16:11] Pobieranie danych pogodowych...
+INFO:     172.19.0.3:55546 - "GET /predict?latitude=53.10487&longitude=18.33097&reservoir_id=9&models=patchtst,tft,fish HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-04-28 16:11:42] INFO PatchTST predict: lat=1.9619797, lon=0.0
+[2026-04-28 16:11:43] WARNING InfluxDB blad [forecast_weather_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Tue, 28 Apr 2026 14:11:43 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-04-28 16:11:43] INFO TFT predict: lat=1.9619797, lon=0.0
+INFO: 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-04-28 16:11:43] INFO 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+INFO: GPU available: False, used: False
+[2026-04-28 16:11:43] INFO GPU available: False, used: False
+INFO: TPU available: False, using: 0 TPU cores
+[2026-04-28 16:11:43] INFO TPU available: False, using: 0 TPU cores
+[2026-04-28 16:11:44] WARNING InfluxDB blad [forecast_weather_10d]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Tue, 28 Apr 2026 14:11:44 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-04-28 16:11:44] INFO Fish predict: lat=1.9619797, lon=0.0
+[2026-04-28 16:11:44] WARNING InfluxDB blad [forecast_fish_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Tue, 28 Apr 2026 14:11:44 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-04-28 16:11] Pobieranie danych...
+Ładowanie modelu TFT...
+Generowanie prognozy...
+JSON zapisany: /home/ec2-user/WeatherPredictionAI/tft_model_files/tft_forecast.json
+  ⚠ InfluxDB pominięty: No module named 'influx_writer'
+[2026-04-28 16:11] Pobieranie danych pogodowych...
+INFO:     172.19.0.3:55546 - "GET /predict?latitude=1.9619797&longitude=0.0&reservoir_id=10&models=patchtst,tft,fish HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [10669]
+[2026-05-05 18:34:49] INFO Uruchamiam API server na 0.0.0.0:8000
+INFO:     Started server process [5998]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-05 18:38:28] INFO PatchTST predict: lat=52.995604, lon=18.666164
+[2026-05-05 18:38:49] WARNING InfluxDB blad [forecast_weather_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Tue, 05 May 2026 16:38:49 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-05 18:38:49] INFO TFT predict: lat=52.995604, lon=18.666164
+INFO: 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-05-05 18:38:53] INFO 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+INFO: GPU available: False, used: False
+[2026-05-05 18:38:53] INFO GPU available: False, used: False
+INFO: TPU available: False, using: 0 TPU cores
+[2026-05-05 18:38:53] INFO TPU available: False, using: 0 TPU cores
+[2026-05-05 18:38:54] WARNING InfluxDB blad [forecast_weather_10d]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Tue, 05 May 2026 16:38:54 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-05 18:38:54] INFO Fish predict: lat=52.995604, lon=18.666164
+[2026-05-05 18:38:55] WARNING InfluxDB blad [forecast_fish_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Tue, 05 May 2026 16:38:55 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-05 18:38] Pobieranie danych...
+Ładowanie modelu TFT...
+Generowanie prognozy...
+JSON zapisany: /home/ec2-user/WeatherPredictionAI/tft_model_files/tft_forecast.json
+  ⚠ InfluxDB pominięty: No module named 'influx_writer'
+[2026-05-05 18:38] Pobieranie danych pogodowych...
+INFO:     172.19.0.3:54162 - "GET /predict?latitude=52.995604&longitude=18.666164&reservoir_id=8&models=patchtst,tft,fish HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-05 18:39:39] INFO Fish predict: lat=53.10487, lon=18.33097
+[2026-05-05 18:39:40] WARNING InfluxDB blad [forecast_fish_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Tue, 05 May 2026 16:39:40 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-05 18:39] Pobieranie danych pogodowych...
+INFO:     172.19.0.3:41934 - "GET /predict?latitude=53.10487&longitude=18.33097&reservoir_id=2&models=fish HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-05 18:40:10] INFO PatchTST predict: lat=53.016859122012626, lon=18.654599632151164
+[2026-05-05 18:40:17] WARNING InfluxDB blad [forecast_weather_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Tue, 05 May 2026 16:40:17 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-05 18:40:17] INFO TFT predict: lat=53.016859122012626, lon=18.654599632151164
+INFO: 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-05-05 18:40:25] INFO 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+INFO: GPU available: False, used: False
+[2026-05-05 18:40:25] INFO GPU available: False, used: False
+INFO: TPU available: False, using: 0 TPU cores
+[2026-05-05 18:40:25] INFO TPU available: False, using: 0 TPU cores
+[2026-05-05 18:40:25] WARNING InfluxDB blad [forecast_weather_10d]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Tue, 05 May 2026 16:40:25 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-05 18:40:25] INFO Fish predict: lat=53.016859122012626, lon=18.654599632151164
+[2026-05-05 18:40:26] WARNING InfluxDB blad [forecast_fish_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Tue, 05 May 2026 16:40:26 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-05 18:40] Pobieranie danych...
+Ładowanie modelu TFT...
+Generowanie prognozy...
+JSON zapisany: /home/ec2-user/WeatherPredictionAI/tft_model_files/tft_forecast.json
+  ⚠ InfluxDB pominięty: No module named 'influx_writer'
+[2026-05-05 18:40] Pobieranie danych pogodowych...
+INFO:     172.19.0.3:32802 - "GET /predict?latitude=53.016859122012626&longitude=18.654599632151164&reservoir_id=7&models=patchtst,tft,fish HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-05 18:40:51] INFO TFT predict: lat=53.016859122012626, lon=18.654599632151164
+INFO: 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-05-05 18:40:52] INFO 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+INFO: GPU available: False, used: False
+[2026-05-05 18:40:52] INFO GPU available: False, used: False
+INFO: TPU available: False, using: 0 TPU cores
+[2026-05-05 18:40:52] INFO TPU available: False, using: 0 TPU cores
+[2026-05-05 18:40:53] WARNING InfluxDB blad [forecast_weather_10d]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Tue, 05 May 2026 16:40:53 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-05 18:40] Pobieranie danych...
+Ładowanie modelu TFT...
+Generowanie prognozy...
+JSON zapisany: /home/ec2-user/WeatherPredictionAI/tft_model_files/tft_forecast.json
+  ⚠ InfluxDB pominięty: No module named 'influx_writer'
+INFO:     172.19.0.3:32802 - "GET /predict?latitude=53.016859122012626&longitude=18.654599632151164&reservoir_id=7&models=tft HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [5998]
+[2026-05-09 18:24:23] INFO Uruchamiam API server na 0.0.0.0:8000
+INFO:     Started server process [3644]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-09 18:24:55] INFO PatchTST predict: lat=52.995604, lon=18.666164
+[2026-05-09 18:25:09] WARNING InfluxDB blad [forecast_weather_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sat, 09 May 2026 16:25:09 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-09 18:25:09] INFO TFT predict: lat=52.995604, lon=18.666164
+INFO: 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-05-09 18:25:12] INFO 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+INFO: GPU available: False, used: False
+[2026-05-09 18:25:12] INFO GPU available: False, used: False
+INFO: TPU available: False, using: 0 TPU cores
+[2026-05-09 18:25:12] INFO TPU available: False, using: 0 TPU cores
+[2026-05-09 18:25:12] WARNING InfluxDB blad [forecast_weather_10d]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sat, 09 May 2026 16:25:12 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-09 18:25:12] INFO Fish predict: lat=52.995604, lon=18.666164
+[2026-05-09 18:25:13] WARNING InfluxDB blad [forecast_fish_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sat, 09 May 2026 16:25:13 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-09 18:25] Pobieranie danych...
+Ładowanie modelu TFT...
+Generowanie prognozy...
+JSON zapisany: /home/ec2-user/WeatherPredictionAI/tft_model_files/tft_forecast.json
+  ⚠ InfluxDB pominięty: No module named 'influx_writer'
+[2026-05-09 18:25] Pobieranie danych pogodowych...
+INFO:     172.19.0.3:53560 - "GET /predict?latitude=52.995604&longitude=18.666164&reservoir_id=8&models=patchtst,tft,fish HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3644]
+[2026-05-10 18:56:33] INFO Uruchamiam API server na 0.0.0.0:8000
+INFO:     Started server process [2400]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-10 18:57:39] INFO PatchTST predict: lat=53.13952174943674, lon=18.767678450679817
+[2026-05-10 18:57:39] INFO TFT predict: lat=53.13952174943674, lon=18.767678450679817
+[2026-05-10 18:57:39] INFO Fish predict: lat=53.13952174943674, lon=18.767678450679817
+[2026-05-10 18:57:49] WARNING InfluxDB blad [forecast_fish_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 16:57:49 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 18:57] Pobieranie danych pogodowych...
+INFO:     172.19.0.3:60010 - "GET /predict?latitude=53.13952174943674&longitude=18.767678450679817&reservoir_id=5&models=fish HTTP/1.1" 200 OK
+[2026-05-10 18:57:54] WARNING InfluxDB blad [forecast_weather_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 16:57:54 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+INFO:     172.19.0.3:59996 - "GET /predict?latitude=53.13952174943674&longitude=18.767678450679817&reservoir_id=5&models=patchtst HTTP/1.1" 200 OK
+INFO: 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-05-10 18:57:56] INFO 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+INFO: GPU available: False, used: False
+[2026-05-10 18:57:56] INFO GPU available: False, used: False
+INFO: TPU available: False, using: 0 TPU cores
+[2026-05-10 18:57:56] INFO TPU available: False, using: 0 TPU cores
+[2026-05-10 18:57:56] WARNING InfluxDB blad [forecast_weather_10d]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 16:57:56 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 18:57] Pobieranie danych...
+Ładowanie modelu TFT...
+Generowanie prognozy...
+JSON zapisany: /home/ec2-user/WeatherPredictionAI/tft_model_files/tft_forecast.json
+  ⚠ InfluxDB pominięty: No module named 'influx_writer'
+INFO:     172.19.0.3:60022 - "GET /predict?latitude=53.13952174943674&longitude=18.767678450679817&reservoir_id=5&models=tft HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-10 18:59:22] INFO PatchTST predict: lat=52.995604, lon=18.666164
+[2026-05-10 18:59:22] WARNING InfluxDB blad [forecast_weather_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 16:59:22 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 18:59:22] INFO TFT predict: lat=52.995604, lon=18.666164
+INFO: 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-05-10 18:59:23] INFO 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+INFO: GPU available: False, used: False
+[2026-05-10 18:59:23] INFO GPU available: False, used: False
+INFO: TPU available: False, using: 0 TPU cores
+[2026-05-10 18:59:23] INFO TPU available: False, using: 0 TPU cores
+[2026-05-10 18:59:23] WARNING InfluxDB blad [forecast_weather_10d]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 16:59:23 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 18:59:23] INFO Fish predict: lat=52.995604, lon=18.666164
+[2026-05-10 18:59:24] WARNING InfluxDB blad [forecast_fish_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 16:59:24 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 18:59] Pobieranie danych...
+Ładowanie modelu TFT...
+Generowanie prognozy...
+JSON zapisany: /home/ec2-user/WeatherPredictionAI/tft_model_files/tft_forecast.json
+  ⚠ InfluxDB pominięty: No module named 'influx_writer'
+[2026-05-10 18:59] Pobieranie danych pogodowych...
+INFO:     172.19.0.3:41546 - "GET /predict?latitude=52.995604&longitude=18.666164&reservoir_id=8&models=patchtst,tft,fish HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-10 19:00:26] INFO PatchTST predict: lat=1.9619797, lon=0.0
+[2026-05-10 19:00:32] WARNING InfluxDB blad [forecast_weather_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:00:32 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 19:00:32] INFO TFT predict: lat=1.9619797, lon=0.0
+INFO: 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-05-10 19:00:39] INFO 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+INFO: GPU available: False, used: False
+[2026-05-10 19:00:39] INFO GPU available: False, used: False
+INFO: TPU available: False, using: 0 TPU cores
+[2026-05-10 19:00:39] INFO TPU available: False, using: 0 TPU cores
+[2026-05-10 19:00:39] WARNING InfluxDB blad [forecast_weather_10d]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:00:39 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 19:00:39] INFO Fish predict: lat=1.9619797, lon=0.0
+[2026-05-10 19:00:39] WARNING InfluxDB blad [forecast_fish_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:00:39 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 19:00] Pobieranie danych...
+Ładowanie modelu TFT...
+Generowanie prognozy...
+JSON zapisany: /home/ec2-user/WeatherPredictionAI/tft_model_files/tft_forecast.json
+  ⚠ InfluxDB pominięty: No module named 'influx_writer'
+[2026-05-10 19:00] Pobieranie danych pogodowych...
+INFO:     172.19.0.3:50964 - "GET /predict?latitude=1.9619797&longitude=0.0&reservoir_id=10&models=patchtst,tft,fish HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-10 19:00:51] INFO PatchTST predict: lat=1.9619797, lon=0.0
+[2026-05-10 19:00:53] WARNING InfluxDB blad [forecast_weather_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:00:53 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 19:00:53] INFO TFT predict: lat=1.9619797, lon=0.0
+INFO: 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-05-10 19:00:56] INFO 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+INFO: GPU available: False, used: False
+[2026-05-10 19:00:56] INFO GPU available: False, used: False
+INFO: TPU available: False, using: 0 TPU cores
+[2026-05-10 19:00:56] INFO TPU available: False, using: 0 TPU cores
+[2026-05-10 19:00:57] WARNING InfluxDB blad [forecast_weather_10d]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:00:57 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 19:00:57] INFO Fish predict: lat=1.9619797, lon=0.0
+[2026-05-10 19:00:57] WARNING InfluxDB blad [forecast_fish_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:00:57 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 19:00] Pobieranie danych...
+Ładowanie modelu TFT...
+Generowanie prognozy...
+JSON zapisany: /home/ec2-user/WeatherPredictionAI/tft_model_files/tft_forecast.json
+  ⚠ InfluxDB pominięty: No module named 'influx_writer'
+[2026-05-10 19:00] Pobieranie danych pogodowych...
+INFO:     172.19.0.3:50964 - "GET /predict?latitude=1.9619797&longitude=0.0&reservoir_id=10&models=patchtst,tft,fish HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-10 19:01:41] INFO PatchTST predict: lat=52.995604, lon=18.666164
+[2026-05-10 19:01:41] WARNING InfluxDB blad [forecast_weather_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:01:41 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 19:01:41] INFO TFT predict: lat=52.995604, lon=18.666164
+INFO: 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-05-10 19:01:42] INFO 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+INFO: GPU available: False, used: False
+[2026-05-10 19:01:42] INFO GPU available: False, used: False
+INFO: TPU available: False, using: 0 TPU cores
+[2026-05-10 19:01:42] INFO TPU available: False, using: 0 TPU cores
+[2026-05-10 19:01:42] WARNING InfluxDB blad [forecast_weather_10d]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:01:42 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 19:01:42] INFO Fish predict: lat=52.995604, lon=18.666164
+[2026-05-10 19:01:43] WARNING InfluxDB blad [forecast_fish_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:01:43 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 19:01] Pobieranie danych...
+Ładowanie modelu TFT...
+Generowanie prognozy...
+JSON zapisany: /home/ec2-user/WeatherPredictionAI/tft_model_files/tft_forecast.json
+  ⚠ InfluxDB pominięty: No module named 'influx_writer'
+[2026-05-10 19:01] Pobieranie danych pogodowych...
+INFO:     172.19.0.3:48974 - "GET /predict?latitude=52.995604&longitude=18.666164&reservoir_id=8&models=patchtst,tft,fish HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-10 19:01:58] INFO PatchTST predict: lat=53.13952174943674, lon=18.767678450679817
+[2026-05-10 19:01:58] WARNING InfluxDB blad [forecast_weather_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:01:58 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 19:01:58] INFO TFT predict: lat=53.13952174943674, lon=18.767678450679817
+INFO: 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-05-10 19:01:59] INFO 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+INFO: GPU available: False, used: False
+[2026-05-10 19:01:59] INFO GPU available: False, used: False
+INFO: TPU available: False, using: 0 TPU cores
+[2026-05-10 19:01:59] INFO TPU available: False, using: 0 TPU cores
+[2026-05-10 19:01:59] WARNING InfluxDB blad [forecast_weather_10d]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:01:59 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 19:01:59] INFO Fish predict: lat=53.13952174943674, lon=18.767678450679817
+[2026-05-10 19:01:59] WARNING InfluxDB blad [forecast_fish_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:01:59 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 19:01] Pobieranie danych...
+Ładowanie modelu TFT...
+Generowanie prognozy...
+JSON zapisany: /home/ec2-user/WeatherPredictionAI/tft_model_files/tft_forecast.json
+  ⚠ InfluxDB pominięty: No module named 'influx_writer'
+[2026-05-10 19:01] Pobieranie danych pogodowych...
+INFO:     172.19.0.3:48974 - "GET /predict?latitude=53.13952174943674&longitude=18.767678450679817&reservoir_id=5&models=patchtst,tft,fish HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-10 19:37:16] INFO PatchTST predict: lat=52.995604, lon=18.666164
+[2026-05-10 19:37:16] INFO TFT predict: lat=52.995604, lon=18.666164
+[2026-05-10 19:37:16] INFO Fish predict: lat=52.995604, lon=18.666164
+[2026-05-10 19:37:19] WARNING InfluxDB blad [forecast_weather_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:37:19 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 19:37] Pobieranie danych...
+[2026-05-10 19:37] Pobieranie danych pogodowych...
+Ładowanie modelu TFT...
+INFO:     172.20.0.3:47258 - "GET /predict?latitude=52.995604&longitude=18.666164&reservoir_id=8&models=patchtst HTTP/1.1" 200 OK
+INFO: 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-05-10 19:37:21] INFO 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-05-10 19:37:21] WARNING InfluxDB blad [forecast_fish_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:37:21 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+Generowanie prognozy...
+INFO:     172.20.0.3:47288 - "GET /predict?latitude=52.995604&longitude=18.666164&reservoir_id=8&models=fish HTTP/1.1" 200 OK
+INFO: GPU available: False, used: False
+[2026-05-10 19:37:21] INFO GPU available: False, used: False
+INFO: TPU available: False, using: 0 TPU cores
+[2026-05-10 19:37:21] INFO TPU available: False, using: 0 TPU cores
+[2026-05-10 19:37:21] WARNING InfluxDB blad [forecast_weather_10d]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:37:21 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+JSON zapisany: /home/ec2-user/WeatherPredictionAI/tft_model_files/tft_forecast.json
+  ⚠ InfluxDB pominięty: No module named 'influx_writer'
+INFO:     172.20.0.3:47272 - "GET /predict?latitude=52.995604&longitude=18.666164&reservoir_id=8&models=tft HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-10 19:38:16] INFO PatchTST predict: lat=53.13952174943674, lon=18.767678450679817
+[2026-05-10 19:38:16] WARNING InfluxDB blad [forecast_weather_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:38:16 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 19:38:16] INFO TFT predict: lat=53.13952174943674, lon=18.767678450679817
+INFO: 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-05-10 19:38:17] INFO 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+INFO: GPU available: False, used: False
+[2026-05-10 19:38:17] INFO GPU available: False, used: False
+INFO: TPU available: False, using: 0 TPU cores
+[2026-05-10 19:38:17] INFO TPU available: False, using: 0 TPU cores
+[2026-05-10 19:38:17] WARNING InfluxDB blad [forecast_weather_10d]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:38:17 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 19:38:17] INFO Fish predict: lat=53.13952174943674, lon=18.767678450679817
+[2026-05-10 19:38:18] WARNING InfluxDB blad [forecast_fish_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:38:18 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 19:38] Pobieranie danych...
+Ładowanie modelu TFT...
+Generowanie prognozy...
+JSON zapisany: /home/ec2-user/WeatherPredictionAI/tft_model_files/tft_forecast.json
+  ⚠ InfluxDB pominięty: No module named 'influx_writer'
+[2026-05-10 19:38] Pobieranie danych pogodowych...
+INFO:     172.20.0.3:40998 - "GET /predict?latitude=53.13952174943674&longitude=18.767678450679817&reservoir_id=5&models=patchtst,tft,fish HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-10 19:38:28] INFO PatchTST predict: lat=52.995604, lon=18.666164
+[2026-05-10 19:38:28] WARNING InfluxDB blad [forecast_weather_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:38:28 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 19:38:28] INFO TFT predict: lat=52.995604, lon=18.666164
+INFO: 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-05-10 19:38:36] INFO 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+INFO: GPU available: False, used: False
+[2026-05-10 19:38:36] INFO GPU available: False, used: False
+INFO: TPU available: False, using: 0 TPU cores
+[2026-05-10 19:38:36] INFO TPU available: False, using: 0 TPU cores
+[2026-05-10 19:38:37] WARNING InfluxDB blad [forecast_weather_10d]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:38:37 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 19:38:37] INFO Fish predict: lat=52.995604, lon=18.666164
+[2026-05-10 19:38:37] WARNING InfluxDB blad [forecast_fish_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:38:37 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 19:38] Pobieranie danych...
+Ładowanie modelu TFT...
+Generowanie prognozy...
+JSON zapisany: /home/ec2-user/WeatherPredictionAI/tft_model_files/tft_forecast.json
+  ⚠ InfluxDB pominięty: No module named 'influx_writer'
+[2026-05-10 19:38] Pobieranie danych pogodowych...
+INFO:     172.20.0.3:40998 - "GET /predict?latitude=52.995604&longitude=18.666164&reservoir_id=8&models=patchtst,tft,fish HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-10 19:39:39] INFO PatchTST predict: lat=52.995604, lon=18.666164
+[2026-05-10 19:39:39] WARNING InfluxDB blad [forecast_weather_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:39:39 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 19:39:39] INFO TFT predict: lat=52.995604, lon=18.666164
+INFO: 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-05-10 19:39:40] INFO 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+INFO: GPU available: False, used: False
+[2026-05-10 19:39:40] INFO GPU available: False, used: False
+INFO: TPU available: False, using: 0 TPU cores
+[2026-05-10 19:39:40] INFO TPU available: False, using: 0 TPU cores
+[2026-05-10 19:39:40] WARNING InfluxDB blad [forecast_weather_10d]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:39:40 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 19:39:40] INFO Fish predict: lat=52.995604, lon=18.666164
+[2026-05-10 19:39:41] WARNING InfluxDB blad [forecast_fish_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:39:41 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 19:39] Pobieranie danych...
+Ładowanie modelu TFT...
+Generowanie prognozy...
+JSON zapisany: /home/ec2-user/WeatherPredictionAI/tft_model_files/tft_forecast.json
+  ⚠ InfluxDB pominięty: No module named 'influx_writer'
+[2026-05-10 19:39] Pobieranie danych pogodowych...
+INFO:     172.20.0.3:34974 - "GET /predict?latitude=52.995604&longitude=18.666164&reservoir_id=8&models=patchtst,tft,fish HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-10 19:40:23] INFO Fish predict: lat=53.10487, lon=18.33097
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-10 19:40:23] INFO TFT predict: lat=53.10487, lon=18.33097
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-10 19:40:23] INFO PatchTST predict: lat=53.10487, lon=18.33097
+[2026-05-10 19:40:24] WARNING InfluxDB blad [forecast_weather_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:40:24 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 19:40] Pobieranie danych pogodowych...
+[2026-05-10 19:40] Pobieranie danych...
+Ładowanie modelu TFT...
+INFO:     172.20.0.3:41208 - "GET /predict?latitude=53.10487&longitude=18.33097&reservoir_id=2&models=patchtst HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-10 19:40:24] INFO PatchTST predict: lat=52.995604, lon=18.666164
+[2026-05-10 19:40:24] WARNING InfluxDB blad [forecast_fish_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:40:24 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+INFO:     172.20.0.3:41198 - "GET /predict?latitude=53.10487&longitude=18.33097&reservoir_id=2&models=fish HTTP/1.1" 200 OK
+[2026-05-10 19:40:24] WARNING InfluxDB blad [forecast_weather_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:40:24 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 19:40:24] INFO TFT predict: lat=52.995604, lon=18.666164
+INFO: 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-05-10 19:40:25] INFO 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+INFO: GPU available: False, used: False
+[2026-05-10 19:40:25] INFO GPU available: False, used: False
+INFO: TPU available: False, using: 0 TPU cores
+[2026-05-10 19:40:25] INFO TPU available: False, using: 0 TPU cores
+[2026-05-10 19:40:25] WARNING InfluxDB blad [forecast_weather_10d]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:40:25 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 19:40] Pobieranie danych...
+Ładowanie modelu TFT...
+Generowanie prognozy...
+JSON zapisany: /home/ec2-user/WeatherPredictionAI/tft_model_files/tft_forecast.json
+  ⚠ InfluxDB pominięty: No module named 'influx_writer'
+INFO:     172.20.0.3:41204 - "GET /predict?latitude=53.10487&longitude=18.33097&reservoir_id=2&models=tft HTTP/1.1" 200 OK
+INFO: 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-05-10 19:40:26] INFO 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+INFO: GPU available: False, used: False
+[2026-05-10 19:40:26] INFO GPU available: False, used: False
+INFO: TPU available: False, using: 0 TPU cores
+[2026-05-10 19:40:26] INFO TPU available: False, using: 0 TPU cores
+[2026-05-10 19:40:26] WARNING InfluxDB blad [forecast_weather_10d]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:40:26 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 19:40:26] INFO Fish predict: lat=52.995604, lon=18.666164
+[2026-05-10 19:40:27] WARNING InfluxDB blad [forecast_fish_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:40:27 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+Generowanie prognozy...
+JSON zapisany: /home/ec2-user/WeatherPredictionAI/tft_model_files/tft_forecast.json
+  ⚠ InfluxDB pominięty: No module named 'influx_writer'
+[2026-05-10 19:40] Pobieranie danych pogodowych...
+INFO:     172.20.0.3:41208 - "GET /predict?latitude=52.995604&longitude=18.666164&reservoir_id=8&models=patchtst,tft,fish HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-10 19:40:56] INFO PatchTST predict: lat=52.995604, lon=18.666164
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-10 19:40:56] INFO Fish predict: lat=52.995604, lon=18.666164
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-10 19:40:56] INFO TFT predict: lat=52.995604, lon=18.666164
+[2026-05-10 19:40:56] WARNING InfluxDB blad [forecast_weather_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:40:56 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 19:40] Pobieranie danych pogodowych...
+[2026-05-10 19:40] Pobieranie danych...
+Ładowanie modelu TFT...
+INFO:     172.20.0.3:41208 - "GET /predict?latitude=52.995604&longitude=18.666164&reservoir_id=8&models=patchtst HTTP/1.1" 200 OK
+INFO: 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-05-10 19:40:57] INFO 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+INFO: GPU available: False, used: False
+[2026-05-10 19:40:57] INFO GPU available: False, used: False
+INFO: TPU available: False, using: 0 TPU cores
+[2026-05-10 19:40:57] INFO TPU available: False, using: 0 TPU cores
+[2026-05-10 19:40:57] WARNING InfluxDB blad [forecast_weather_10d]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:40:57 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+Generowanie prognozy...
+JSON zapisany: /home/ec2-user/WeatherPredictionAI/tft_model_files/tft_forecast.json
+  ⚠ InfluxDB pominięty: No module named 'influx_writer'
+INFO:     172.20.0.3:40028 - "GET /predict?latitude=52.995604&longitude=18.666164&reservoir_id=8&models=tft HTTP/1.1" 200 OK
+[2026-05-10 19:40:58] WARNING InfluxDB blad [forecast_fish_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:40:58 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+INFO:     172.20.0.3:40038 - "GET /predict?latitude=52.995604&longitude=18.666164&reservoir_id=8&models=fish HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-10 19:41:44] INFO PatchTST predict: lat=53.13952174943674, lon=18.767678450679817
+[2026-05-10 19:41:45] WARNING InfluxDB blad [forecast_weather_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:41:45 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 19:41:45] INFO TFT predict: lat=53.13952174943674, lon=18.767678450679817
+INFO: 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-05-10 19:41:45] INFO 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+INFO: GPU available: False, used: False
+[2026-05-10 19:41:45] INFO GPU available: False, used: False
+INFO: TPU available: False, using: 0 TPU cores
+[2026-05-10 19:41:45] INFO TPU available: False, using: 0 TPU cores
+[2026-05-10 19:41:46] WARNING InfluxDB blad [forecast_weather_10d]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:41:46 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 19:41:46] INFO Fish predict: lat=53.13952174943674, lon=18.767678450679817
+[2026-05-10 19:41:46] WARNING InfluxDB blad [forecast_fish_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:41:46 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 19:41] Pobieranie danych...
+Ładowanie modelu TFT...
+Generowanie prognozy...
+JSON zapisany: /home/ec2-user/WeatherPredictionAI/tft_model_files/tft_forecast.json
+  ⚠ InfluxDB pominięty: No module named 'influx_writer'
+[2026-05-10 19:41] Pobieranie danych pogodowych...
+INFO:     172.20.0.3:56322 - "GET /predict?latitude=53.13952174943674&longitude=18.767678450679817&reservoir_id=5&models=patchtst,tft,fish HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-10 19:45:55] INFO PatchTST predict: lat=53.10487, lon=18.33097
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-10 19:45:55] INFO TFT predict: lat=53.10487, lon=18.33097
+[2026-05-10 19:45:55] INFO Fish predict: lat=53.10487, lon=18.33097
+[2026-05-10 19:45:55] WARNING InfluxDB blad [forecast_weather_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:45:55 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 19:45] Pobieranie danych...
+[2026-05-10 19:45] Pobieranie danych pogodowych...
+INFO:     172.20.0.3:48268 - "GET /predict?latitude=53.10487&longitude=18.33097&reservoir_id=2&models=patchtst HTTP/1.1" 200 OK
+[2026-05-10 19:45:56] WARNING InfluxDB blad [forecast_fish_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:45:56 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+Ładowanie modelu TFT...
+INFO:     172.20.0.3:48272 - "GET /predict?latitude=53.10487&longitude=18.33097&reservoir_id=2&models=fish HTTP/1.1" 200 OK
+INFO: 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-05-10 19:45:56] INFO 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+INFO: GPU available: False, used: False
+[2026-05-10 19:45:56] INFO GPU available: False, used: False
+INFO: TPU available: False, using: 0 TPU cores
+[2026-05-10 19:45:56] INFO TPU available: False, using: 0 TPU cores
+[2026-05-10 19:45:57] WARNING InfluxDB blad [forecast_weather_10d]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:45:57 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+Generowanie prognozy...
+JSON zapisany: /home/ec2-user/WeatherPredictionAI/tft_model_files/tft_forecast.json
+  ⚠ InfluxDB pominięty: No module named 'influx_writer'
+INFO:     172.20.0.3:48282 - "GET /predict?latitude=53.10487&longitude=18.33097&reservoir_id=2&models=tft HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-10 19:46:22] INFO Fish predict: lat=52.995604, lon=18.666164
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-10 19:46:22] INFO TFT predict: lat=52.995604, lon=18.666164
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-10 19:46:22] INFO PatchTST predict: lat=52.995604, lon=18.666164
+[2026-05-10 19:46:22] WARNING InfluxDB blad [forecast_weather_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:46:22 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 19:46] Pobieranie danych pogodowych...
+[2026-05-10 19:46] Pobieranie danych...
+Ładowanie modelu TFT...
+INFO:     172.20.0.3:48282 - "GET /predict?latitude=52.995604&longitude=18.666164&reservoir_id=8&models=patchtst HTTP/1.1" 200 OK
+[2026-05-10 19:46:23] WARNING InfluxDB blad [forecast_fish_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:46:23 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+INFO:     172.20.0.3:48268 - "GET /predict?latitude=52.995604&longitude=18.666164&reservoir_id=8&models=fish HTTP/1.1" 200 OK
+INFO: 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-05-10 19:46:23] INFO 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+INFO: GPU available: False, used: False
+[2026-05-10 19:46:23] INFO GPU available: False, used: False
+INFO: TPU available: False, using: 0 TPU cores
+[2026-05-10 19:46:23] INFO TPU available: False, using: 0 TPU cores
+[2026-05-10 19:46:24] WARNING InfluxDB blad [forecast_weather_10d]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:46:24 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+Generowanie prognozy...
+JSON zapisany: /home/ec2-user/WeatherPredictionAI/tft_model_files/tft_forecast.json
+  ⚠ InfluxDB pominięty: No module named 'influx_writer'
+INFO:     172.20.0.3:48272 - "GET /predict?latitude=52.995604&longitude=18.666164&reservoir_id=8&models=tft HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-10 19:46:29] INFO PatchTST predict: lat=52.995604, lon=18.666164
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-10 19:46:29] INFO Fish predict: lat=52.995604, lon=18.666164
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-10 19:46:29] INFO TFT predict: lat=52.995604, lon=18.666164
+[2026-05-10 19:46:29] WARNING InfluxDB blad [forecast_weather_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:46:29 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 19:46] Pobieranie danych pogodowych...
+[2026-05-10 19:46] Pobieranie danych...
+Ładowanie modelu TFT...
+INFO:     172.20.0.3:48282 - "GET /predict?latitude=52.995604&longitude=18.666164&reservoir_id=8&models=patchtst HTTP/1.1" 200 OK
+[2026-05-10 19:46:29] WARNING InfluxDB blad [forecast_fish_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:46:29 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+INFO:     172.20.0.3:48268 - "GET /predict?latitude=52.995604&longitude=18.666164&reservoir_id=8&models=fish HTTP/1.1" 200 OK
+INFO: 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-05-10 19:46:30] INFO 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+INFO: GPU available: False, used: False
+[2026-05-10 19:46:30] INFO GPU available: False, used: False
+INFO: TPU available: False, using: 0 TPU cores
+[2026-05-10 19:46:30] INFO TPU available: False, using: 0 TPU cores
+[2026-05-10 19:46:30] WARNING InfluxDB blad [forecast_weather_10d]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:46:30 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+Generowanie prognozy...
+JSON zapisany: /home/ec2-user/WeatherPredictionAI/tft_model_files/tft_forecast.json
+  ⚠ InfluxDB pominięty: No module named 'influx_writer'
+INFO:     172.20.0.3:48272 - "GET /predict?latitude=52.995604&longitude=18.666164&reservoir_id=8&models=tft HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-10 19:48:29] INFO Fish predict: lat=52.995604, lon=18.666164
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-10 19:48:29] INFO PatchTST predict: lat=52.995604, lon=18.666164
+[2026-05-10 19:48:29] INFO TFT predict: lat=52.995604, lon=18.666164
+[2026-05-10 19:48:30] WARNING InfluxDB blad [forecast_weather_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:48:30 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 19:48] Pobieranie danych pogodowych...
+[2026-05-10 19:48] Pobieranie danych...
+INFO:     172.20.0.3:42246 - "GET /predict?latitude=52.995604&longitude=18.666164&reservoir_id=8&models=patchtst HTTP/1.1" 200 OK
+[2026-05-10 19:48:30] WARNING InfluxDB blad [forecast_fish_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:48:30 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+Ładowanie modelu TFT...
+INFO:     172.20.0.3:42234 - "GET /predict?latitude=52.995604&longitude=18.666164&reservoir_id=8&models=fish HTTP/1.1" 200 OK
+INFO: 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-05-10 19:48:31] INFO 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+INFO: GPU available: False, used: False
+[2026-05-10 19:48:31] INFO GPU available: False, used: False
+INFO: TPU available: False, using: 0 TPU cores
+[2026-05-10 19:48:31] INFO TPU available: False, using: 0 TPU cores
+[2026-05-10 19:48:31] WARNING InfluxDB blad [forecast_weather_10d]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 17:48:31 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+Generowanie prognozy...
+JSON zapisany: /home/ec2-user/WeatherPredictionAI/tft_model_files/tft_forecast.json
+  ⚠ InfluxDB pominięty: No module named 'influx_writer'
+INFO:     172.20.0.3:42248 - "GET /predict?latitude=52.995604&longitude=18.666164&reservoir_id=8&models=tft HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-10 20:03:57] INFO TFT predict: lat=52.995604, lon=18.666164
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-10 20:03:57] INFO PatchTST predict: lat=52.995604, lon=18.666164
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-10 20:03:57] INFO Fish predict: lat=52.995604, lon=18.666164
+[2026-05-10 20:03:57] WARNING InfluxDB blad [forecast_weather_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 18:03:57 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 20:03] Pobieranie danych...
+[2026-05-10 20:03] Pobieranie danych pogodowych...
+Ładowanie modelu TFT...
+INFO:     172.20.0.3:38378 - "GET /predict?latitude=52.995604&longitude=18.666164&reservoir_id=8&models=patchtst HTTP/1.1" 200 OK
+INFO: 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-05-10 20:03:58] INFO 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+INFO: GPU available: False, used: False
+[2026-05-10 20:03:58] INFO GPU available: False, used: False
+INFO: TPU available: False, using: 0 TPU cores
+[2026-05-10 20:03:58] INFO TPU available: False, using: 0 TPU cores
+[2026-05-10 20:03:58] WARNING InfluxDB blad [forecast_weather_10d]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 18:03:58 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+Generowanie prognozy...
+JSON zapisany: /home/ec2-user/WeatherPredictionAI/tft_model_files/tft_forecast.json
+  ⚠ InfluxDB pominięty: No module named 'influx_writer'
+INFO:     172.20.0.3:38372 - "GET /predict?latitude=52.995604&longitude=18.666164&reservoir_id=8&models=tft HTTP/1.1" 200 OK
+[2026-05-10 20:03:59] WARNING InfluxDB blad [forecast_fish_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 18:03:59 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+INFO:     172.20.0.3:38384 - "GET /predict?latitude=52.995604&longitude=18.666164&reservoir_id=8&models=fish HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-10 20:04:38] INFO PatchTST predict: lat=52.995604, lon=18.666164
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-10 20:04:38] INFO TFT predict: lat=52.995604, lon=18.666164
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-10 20:04:38] INFO Fish predict: lat=52.995604, lon=18.666164
+[2026-05-10 20:04:38] WARNING InfluxDB blad [forecast_weather_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 18:04:38 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 20:04] Pobieranie danych...
+[2026-05-10 20:04] Pobieranie danych pogodowych...
+INFO:     172.20.0.3:45344 - "GET /predict?latitude=52.995604&longitude=18.666164&reservoir_id=8&models=patchtst HTTP/1.1" 200 OK
+[2026-05-10 20:04:39] WARNING InfluxDB blad [forecast_fish_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 18:04:39 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+Ładowanie modelu TFT...
+INFO:     172.20.0.3:45356 - "GET /predict?latitude=52.995604&longitude=18.666164&reservoir_id=8&models=fish HTTP/1.1" 200 OK
+INFO: 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-05-10 20:04:40] INFO 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+INFO: GPU available: False, used: False
+[2026-05-10 20:04:40] INFO GPU available: False, used: False
+INFO: TPU available: False, using: 0 TPU cores
+[2026-05-10 20:04:40] INFO TPU available: False, using: 0 TPU cores
+[2026-05-10 20:04:40] WARNING InfluxDB blad [forecast_weather_10d]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 18:04:40 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+Generowanie prognozy...
+JSON zapisany: /home/ec2-user/WeatherPredictionAI/tft_model_files/tft_forecast.json
+  ⚠ InfluxDB pominięty: No module named 'influx_writer'
+INFO:     172.20.0.3:45352 - "GET /predict?latitude=52.995604&longitude=18.666164&reservoir_id=8&models=tft HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-10 20:05:12] INFO PatchTST predict: lat=53.10487, lon=18.33097
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-10 20:05:12] INFO TFT predict: lat=53.10487, lon=18.33097
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-10 20:05:12] INFO Fish predict: lat=53.10487, lon=18.33097
+[2026-05-10 20:05:12] WARNING InfluxDB blad [forecast_weather_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 18:05:12 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 20:05] Pobieranie danych...
+[2026-05-10 20:05] Pobieranie danych pogodowych...
+INFO:     172.20.0.3:51604 - "GET /predict?latitude=53.10487&longitude=18.33097&reservoir_id=2&models=patchtst HTTP/1.1" 200 OK
+INFO: 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-05-10 20:05:13] INFO 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+INFO: GPU available: False, used: False
+[2026-05-10 20:05:13] INFO GPU available: False, used: False
+INFO: TPU available: False, using: 0 TPU cores
+[2026-05-10 20:05:13] INFO TPU available: False, using: 0 TPU cores
+[2026-05-10 20:05:13] WARNING InfluxDB blad [forecast_weather_10d]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 18:05:13 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+Ładowanie modelu TFT...
+Generowanie prognozy...
+JSON zapisany: /home/ec2-user/WeatherPredictionAI/tft_model_files/tft_forecast.json
+  ⚠ InfluxDB pominięty: No module named 'influx_writer'
+INFO:     172.20.0.3:51618 - "GET /predict?latitude=53.10487&longitude=18.33097&reservoir_id=2&models=tft HTTP/1.1" 200 OK
+[2026-05-10 20:05:14] WARNING InfluxDB blad [forecast_fish_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 18:05:14 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+INFO:     172.20.0.3:51626 - "GET /predict?latitude=53.10487&longitude=18.33097&reservoir_id=2&models=fish HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-10 20:06:19] INFO PatchTST predict: lat=53.13952174943674, lon=18.767678450679817
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-10 20:06:19] INFO TFT predict: lat=53.13952174943674, lon=18.767678450679817
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[2026-05-10 20:06:19] INFO Fish predict: lat=53.13952174943674, lon=18.767678450679817
+[2026-05-10 20:06:19] WARNING InfluxDB blad [forecast_weather_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 18:06:19 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+[2026-05-10 20:06] Pobieranie danych...
+[2026-05-10 20:06] Pobieranie danych pogodowych...
+INFO:     172.20.0.3:60838 - "GET /predict?latitude=53.13952174943674&longitude=18.767678450679817&reservoir_id=5&models=patchtst HTTP/1.1" 200 OK
+[2026-05-10 20:06:20] WARNING InfluxDB blad [forecast_fish_24h]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 18:06:20 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+Ładowanie modelu TFT...
+INFO:     172.20.0.3:60852 - "GET /predict?latitude=53.13952174943674&longitude=18.767678450679817&reservoir_id=5&models=fish HTTP/1.1" 200 OK
+INFO: 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+[2026-05-10 20:06:20] INFO 💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+INFO: GPU available: False, used: False
+[2026-05-10 20:06:20] INFO GPU available: False, used: False
+INFO: TPU available: False, using: 0 TPU cores
+[2026-05-10 20:06:20] INFO TPU available: False, using: 0 TPU cores
+[2026-05-10 20:06:20] WARNING InfluxDB blad [forecast_weather_10d]: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.11', 'X-Platform-Error-Code': 'not found', 'Date': 'Sun, 10 May 2026 18:06:20 GMT', 'Content-Length': '65'})
+HTTP response body: {"code":"not found","message":"bucket \"predictions\" not found"}
+
+Generowanie prognozy...
+JSON zapisany: /home/ec2-user/WeatherPredictionAI/tft_model_files/tft_forecast.json
+  ⚠ InfluxDB pominięty: No module named 'influx_writer'
+INFO:     172.20.0.3:60842 - "GET /predict?latitude=53.13952174943674&longitude=18.767678450679817&reservoir_id=5&models=tft HTTP/1.1" 200 OK

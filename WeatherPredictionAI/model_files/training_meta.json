@@ -1,0 +1,42 @@
+{
+  "trained_at": "2026-03-10T20:22:02.451926",
+  "val_loss": 0.0033286893017718503,
+  "rmse_celsius": 3.0809020213827862,
+  "samples_train": 37166,
+  "samples_val": 6481,
+  "features_in": [
+    "temperature",
+    "humidity",
+    "pressure",
+    "wind_speed",
+    "wind_gust",
+    "rain_rate",
+    "hour_sin",
+    "hour_cos",
+    "doy_sin",
+    "doy_cos",
+    "d_pressure_3h",
+    "d_pressure_24h",
+    "d_temp_6h",
+    "wind_dir_sin",
+    "wind_dir_cos",
+    "temp_daily_max",
+    "temp_daily_min",
+    "cloudcover",
+    "dewpoint",
+    "apparent_temp",
+    "solar_heating",
+    "hour_shifted"
+  ],
+  "targets": [
+    "temperature",
+    "wind_speed",
+    "wind_gust",
+    "pressure",
+    "rain_rate",
+    "humidity",
+    "cloudcover",
+    "apparent_temp",
+    "dewpoint"
+  ]
+}

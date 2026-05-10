@@ -1,0 +1,1529 @@
+{
+  "generated_at": "2026-03-26T21:31:47.819449",
+  "base_url": "http://localhost:8080",
+  "models": "patchtst,fish",
+  "user_levels": [
+    100
+  ],
+  "summary": [
+    {
+      "n_users": 100,
+      "models": "patchtst,fish",
+      "total_ms": 83120.0,
+      "success_count": 100,
+      "failure_count": 0,
+      "success_rate": 100.0,
+      "throughput_rps": 1.2,
+      "latency": {
+        "min_ms": 9742.0,
+        "max_ms": 67890.0,
+        "mean_ms": 38047.0,
+        "median_ms": 36118.0,
+        "p95_ms": 66329.0,
+        "p99_ms": 67890.0
+      }
+    }
+  ],
+  "raw_results": [
+    {
+      "reservoir_id": 10,
+      "reservoir_name": "Zbiornik Dobczyce",
+      "lat": 49.87,
+      "lon": 20.08,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 9741.6,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 2,
+      "reservoir_name": "Jezioro \u015aniardwy",
+      "lat": 53.75,
+      "lon": 21.72,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 11216.9,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 11,
+      "reservoir_name": "Jezioro Drawsko",
+      "lat": 53.68,
+      "lon": 15.81,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 11438.5,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 7,
+      "reservoir_name": "Jezioro Gop\u0142o",
+      "lat": 52.57,
+      "lon": 18.28,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 11499.8,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 4,
+      "reservoir_name": "Jeziorko Czerniakowskie",
+      "lat": 52.18,
+      "lon": 21.08,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 11575.0,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 8,
+      "reservoir_name": "Zbiornik Czaniec",
+      "lat": 49.89,
+      "lon": 19.14,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 11775.1,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 15,
+      "reservoir_name": "Jezioro Charzykowskie",
+      "lat": 53.79,
+      "lon": 17.5,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 11937.8,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 15,
+      "reservoir_name": "Jezioro Charzykowskie",
+      "lat": 53.79,
+      "lon": 17.5,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 12010.5,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 7,
+      "reservoir_name": "Jezioro Gop\u0142o",
+      "lat": 52.57,
+      "lon": 18.28,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 11978.7,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 3,
+      "reservoir_name": "Zalew Wi\u015blany",
+      "lat": 54.352,
+      "lon": 19.5,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 12233.9,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 14,
+      "reservoir_name": "Zbiornik Nyski",
+      "lat": 50.48,
+      "lon": 17.33,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 12268.9,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 8,
+      "reservoir_name": "Zbiornik Czaniec",
+      "lat": 49.89,
+      "lon": 19.14,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 12507.0,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 4,
+      "reservoir_name": "Jeziorko Czerniakowskie",
+      "lat": 52.18,
+      "lon": 21.08,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 12519.3,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 7,
+      "reservoir_name": "Jezioro Gop\u0142o",
+      "lat": 52.57,
+      "lon": 18.28,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 12630.4,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 1,
+      "reservoir_name": "Zalew Zegrzy\u0144ski",
+      "lat": 52.4763,
+      "lon": 21.0532,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 12684.0,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 2,
+      "reservoir_name": "Jezioro \u015aniardwy",
+      "lat": 53.75,
+      "lon": 21.72,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 12794.7,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 10,
+      "reservoir_name": "Zbiornik Dobczyce",
+      "lat": 49.87,
+      "lon": 20.08,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 12892.3,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 12,
+      "reservoir_name": "Zbiornik Koronowski",
+      "lat": 53.32,
+      "lon": 17.94,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 44863.5,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 14,
+      "reservoir_name": "Zbiornik Nyski",
+      "lat": 50.48,
+      "lon": 17.33,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 45236.5,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 6,
+      "reservoir_name": "Zbiornik Solina",
+      "lat": 49.37,
+      "lon": 22.45,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 45433.9,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 15,
+      "reservoir_name": "Jezioro Charzykowskie",
+      "lat": 53.79,
+      "lon": 17.5,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 45453.4,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 11,
+      "reservoir_name": "Jezioro Drawsko",
+      "lat": 53.68,
+      "lon": 15.81,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 45608.3,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 3,
+      "reservoir_name": "Zalew Wi\u015blany",
+      "lat": 54.352,
+      "lon": 19.5,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 45855.5,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 1,
+      "reservoir_name": "Zalew Zegrzy\u0144ski",
+      "lat": 52.4763,
+      "lon": 21.0532,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 46043.3,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 6,
+      "reservoir_name": "Zbiornik Solina",
+      "lat": 49.37,
+      "lon": 22.45,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 46275.0,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 5,
+      "reservoir_name": "Jezioro Wigry",
+      "lat": 54.02,
+      "lon": 23.07,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 46398.6,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 9,
+      "reservoir_name": "Jezioro Mamry",
+      "lat": 54.15,
+      "lon": 21.73,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 46550.0,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 9,
+      "reservoir_name": "Jezioro Mamry",
+      "lat": 54.15,
+      "lon": 21.73,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 46748.1,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 12,
+      "reservoir_name": "Zbiornik Koronowski",
+      "lat": 53.32,
+      "lon": 17.94,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 47097.0,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 4,
+      "reservoir_name": "Jeziorko Czerniakowskie",
+      "lat": 52.18,
+      "lon": 21.08,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 47198.8,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 3,
+      "reservoir_name": "Zalew Wi\u015blany",
+      "lat": 54.352,
+      "lon": 19.5,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 47586.6,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 6,
+      "reservoir_name": "Zbiornik Solina",
+      "lat": 49.37,
+      "lon": 22.45,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 47645.9,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 9,
+      "reservoir_name": "Jezioro Mamry",
+      "lat": 54.15,
+      "lon": 21.73,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 47598.2,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 5,
+      "reservoir_name": "Jezioro Wigry",
+      "lat": 54.02,
+      "lon": 23.07,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 47690.0,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 3,
+      "reservoir_name": "Zalew Wi\u015blany",
+      "lat": 54.352,
+      "lon": 19.5,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 47755.9,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 1,
+      "reservoir_name": "Zalew Zegrzy\u0144ski",
+      "lat": 52.4763,
+      "lon": 21.0532,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 47934.4,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 10,
+      "reservoir_name": "Zbiornik Dobczyce",
+      "lat": 49.87,
+      "lon": 20.08,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 48000.4,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 11,
+      "reservoir_name": "Jezioro Drawsko",
+      "lat": 53.68,
+      "lon": 15.81,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 36901.2,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 12,
+      "reservoir_name": "Zbiornik Koronowski",
+      "lat": 53.32,
+      "lon": 17.94,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 48442.9,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 12,
+      "reservoir_name": "Zbiornik Koronowski",
+      "lat": 53.32,
+      "lon": 17.94,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 36911.2,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 13,
+      "reservoir_name": "Jezioro Niegocin",
+      "lat": 54.03,
+      "lon": 21.79,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 48783.2,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 4,
+      "reservoir_name": "Jeziorko Czerniakowskie",
+      "lat": 52.18,
+      "lon": 21.08,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 48855.2,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 5,
+      "reservoir_name": "Jezioro Wigry",
+      "lat": 54.02,
+      "lon": 23.07,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 48916.6,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 14,
+      "reservoir_name": "Zbiornik Nyski",
+      "lat": 50.48,
+      "lon": 17.33,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 48868.3,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 8,
+      "reservoir_name": "Zbiornik Czaniec",
+      "lat": 49.89,
+      "lon": 19.14,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 48850.0,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 1,
+      "reservoir_name": "Zalew Zegrzy\u0144ski",
+      "lat": 52.4763,
+      "lon": 21.0532,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 48854.8,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 8,
+      "reservoir_name": "Zbiornik Czaniec",
+      "lat": 49.89,
+      "lon": 19.14,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 37474.0,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 10,
+      "reservoir_name": "Zbiornik Dobczyce",
+      "lat": 49.87,
+      "lon": 20.08,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 37005.6,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 14,
+      "reservoir_name": "Zbiornik Nyski",
+      "lat": 50.48,
+      "lon": 17.33,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 49020.1,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 13,
+      "reservoir_name": "Jezioro Niegocin",
+      "lat": 54.03,
+      "lon": 21.79,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 37347.9,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 4,
+      "reservoir_name": "Jeziorko Czerniakowskie",
+      "lat": 52.18,
+      "lon": 21.08,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 39398.5,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 11,
+      "reservoir_name": "Jezioro Drawsko",
+      "lat": 53.68,
+      "lon": 15.81,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 49055.3,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 14,
+      "reservoir_name": "Zbiornik Nyski",
+      "lat": 50.48,
+      "lon": 17.33,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 49102.8,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 12,
+      "reservoir_name": "Zbiornik Koronowski",
+      "lat": 53.32,
+      "lon": 17.94,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 49117.9,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 3,
+      "reservoir_name": "Zalew Wi\u015blany",
+      "lat": 54.352,
+      "lon": 19.5,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 49178.2,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 15,
+      "reservoir_name": "Jezioro Charzykowskie",
+      "lat": 53.79,
+      "lon": 17.5,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 49295.5,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 5,
+      "reservoir_name": "Jezioro Wigry",
+      "lat": 54.02,
+      "lon": 23.07,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 37849.3,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 9,
+      "reservoir_name": "Jezioro Mamry",
+      "lat": 54.15,
+      "lon": 21.73,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 65094.5,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 12,
+      "reservoir_name": "Zbiornik Koronowski",
+      "lat": 53.32,
+      "lon": 17.94,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 66112.1,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 2,
+      "reservoir_name": "Jezioro \u015aniardwy",
+      "lat": 53.75,
+      "lon": 21.72,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 65938.5,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 10,
+      "reservoir_name": "Zbiornik Dobczyce",
+      "lat": 49.87,
+      "lon": 20.08,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 66052.7,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 7,
+      "reservoir_name": "Jezioro Gop\u0142o",
+      "lat": 52.57,
+      "lon": 18.28,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 66115.1,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 9,
+      "reservoir_name": "Jezioro Mamry",
+      "lat": 54.15,
+      "lon": 21.73,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 66329.4,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 15,
+      "reservoir_name": "Jezioro Charzykowskie",
+      "lat": 53.79,
+      "lon": 17.5,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 34272.6,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 9,
+      "reservoir_name": "Jezioro Mamry",
+      "lat": 54.15,
+      "lon": 21.73,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 66498.2,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 2,
+      "reservoir_name": "Jezioro \u015aniardwy",
+      "lat": 53.75,
+      "lon": 21.72,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 34049.6,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 13,
+      "reservoir_name": "Jezioro Niegocin",
+      "lat": 54.03,
+      "lon": 21.79,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 66892.1,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 13,
+      "reservoir_name": "Jezioro Niegocin",
+      "lat": 54.03,
+      "lon": 21.79,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 33858.0,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 8,
+      "reservoir_name": "Zbiornik Czaniec",
+      "lat": 49.89,
+      "lon": 19.14,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 67033.1,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 2,
+      "reservoir_name": "Jezioro \u015aniardwy",
+      "lat": 53.75,
+      "lon": 21.72,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 67890.3,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 6,
+      "reservoir_name": "Zbiornik Solina",
+      "lat": 49.37,
+      "lon": 22.45,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 34247.3,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 7,
+      "reservoir_name": "Jezioro Gop\u0142o",
+      "lat": 52.57,
+      "lon": 18.28,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 34000.9,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 13,
+      "reservoir_name": "Jezioro Niegocin",
+      "lat": 54.03,
+      "lon": 21.79,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 34870.9,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 4,
+      "reservoir_name": "Jeziorko Czerniakowskie",
+      "lat": 52.18,
+      "lon": 21.08,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 32020.7,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 2,
+      "reservoir_name": "Jezioro \u015aniardwy",
+      "lat": 53.75,
+      "lon": 21.72,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 31770.0,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 14,
+      "reservoir_name": "Zbiornik Nyski",
+      "lat": 50.48,
+      "lon": 17.33,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 34622.7,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 5,
+      "reservoir_name": "Jezioro Wigry",
+      "lat": 54.02,
+      "lon": 23.07,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 34204.5,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 11,
+      "reservoir_name": "Jezioro Drawsko",
+      "lat": 53.68,
+      "lon": 15.81,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 35334.3,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 3,
+      "reservoir_name": "Zalew Wi\u015blany",
+      "lat": 54.352,
+      "lon": 19.5,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 33252.5,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 1,
+      "reservoir_name": "Zalew Zegrzy\u0144ski",
+      "lat": 52.4763,
+      "lon": 21.0532,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 31945.8,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 6,
+      "reservoir_name": "Zbiornik Solina",
+      "lat": 49.37,
+      "lon": 22.45,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 33248.0,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 9,
+      "reservoir_name": "Jezioro Mamry",
+      "lat": 54.15,
+      "lon": 21.73,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 32809.4,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 1,
+      "reservoir_name": "Zalew Zegrzy\u0144ski",
+      "lat": 52.4763,
+      "lon": 21.0532,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 34153.5,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 6,
+      "reservoir_name": "Zbiornik Solina",
+      "lat": 49.37,
+      "lon": 22.45,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 33695.6,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 6,
+      "reservoir_name": "Zbiornik Solina",
+      "lat": 49.37,
+      "lon": 22.45,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 32028.0,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 8,
+      "reservoir_name": "Zbiornik Czaniec",
+      "lat": 49.89,
+      "lon": 19.14,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 32441.8,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 10,
+      "reservoir_name": "Zbiornik Dobczyce",
+      "lat": 49.87,
+      "lon": 20.08,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 33090.9,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 2,
+      "reservoir_name": "Jezioro \u015aniardwy",
+      "lat": 53.75,
+      "lon": 21.72,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 33556.6,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 4,
+      "reservoir_name": "Jeziorko Czerniakowskie",
+      "lat": 52.18,
+      "lon": 21.08,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 33149.4,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 1,
+      "reservoir_name": "Zalew Zegrzy\u0144ski",
+      "lat": 52.4763,
+      "lon": 21.0532,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 33541.8,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 8,
+      "reservoir_name": "Zbiornik Czaniec",
+      "lat": 49.89,
+      "lon": 19.14,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 34164.4,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 5,
+      "reservoir_name": "Jezioro Wigry",
+      "lat": 54.02,
+      "lon": 23.07,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 34907.2,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 10,
+      "reservoir_name": "Zbiornik Dobczyce",
+      "lat": 49.87,
+      "lon": 20.08,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 32401.9,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 13,
+      "reservoir_name": "Jezioro Niegocin",
+      "lat": 54.03,
+      "lon": 21.79,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 33531.0,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 3,
+      "reservoir_name": "Zalew Wi\u015blany",
+      "lat": 54.352,
+      "lon": 19.5,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 32580.7,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 11,
+      "reservoir_name": "Jezioro Drawsko",
+      "lat": 53.68,
+      "lon": 15.81,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 32571.2,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 7,
+      "reservoir_name": "Jezioro Gop\u0142o",
+      "lat": 52.57,
+      "lon": 18.28,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 32604.6,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 5,
+      "reservoir_name": "Jezioro Wigry",
+      "lat": 54.02,
+      "lon": 23.07,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 33883.0,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 15,
+      "reservoir_name": "Jezioro Charzykowskie",
+      "lat": 53.79,
+      "lon": 17.5,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 34061.6,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    },
+    {
+      "reservoir_id": 7,
+      "reservoir_name": "Jezioro Gop\u0142o",
+      "lat": 52.57,
+      "lon": 18.28,
+      "models": "patchtst,fish",
+      "success": true,
+      "elapsed_ms": 33959.8,
+      "models_run": [
+        "patchtst",
+        "fish"
+      ],
+      "errors": [],
+      "http_status": 200
+    }
+  ]
+}
